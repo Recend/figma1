@@ -3,3 +3,127 @@
  margin: 0;
  padding: 0;
 }
+
+#galva {
+ max-width: 1200px;
+ margin: 0 auto;
+ font-family: 'Poppins', sans-serif;
+}
+
+body{
+ background-color: #0F1624;
+ height: 100vh;
+ position: relative;
+ background-image: url(/figma1/foto/hero_img.svg);
+ background-repeat: no-repeat;
+ background-position: bottom -152px right -50px;
+ background-size: 583px 583px cover;
+}
+
+.logo{
+ color: white;
+ font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ height: 137px;
+}
+
+.logo{
+ display: flex;
+ align-items: center;
+}
+
+.menu{
+ display: flex;
+ align-items: center;
+ list-style-type: none;
+ width: 497px;
+ justify-content: space-between;
+}
+
+.linkai {
+ display: flex;
+ align-items: center;
+ list-style-type: none;
+}
+
+.social{
+ padding:0px 56px;
+}
+
+.social1{
+ filter: invert();
+ margin-right: 70px;
+}
+ 
+.social img{
+ width: 30px;
+ height: 30px;
+}
+.social1 img{
+ width: 30px;
+ height: 30px;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+ font-size: 24px;
+}
+
+.navbar p {
+ font-family: 'Poppins', sans-serif;
+ font-size: 30px;
+ margin-left: 30px;
+}
+
+.menu li {
+ padding: 0px 6px;
+}
+
+h1 {
+ color: white;
+ margin-left: 78px;
+ font-size: 55px;
+ margin-top: 150px;
+}
+.vidus p{
+ color: white;
+ margin-left: 78px;
+ margin-top: 67px;
+ font-size: 30px;
+ width: 810px;
+}
+
+.vidus {
+ max-width: 1200px;
+ margin: 0 auto;
+ font-family:'Poppins', sans-serif;
+ }
+
+
+.begin {
+ margin-left: 78px;
+ margin-top: 94px;
+ width: 280px;
+ height: 80px;
+ background: #945dd6;
+ background: linear-gradient(90deg,#945dd6 0%, #6978d1 40%, #13adc7 80%);
+ background: -webkit-linear-gradient(90deg,#945dd6 0%, #6978d1 40%, #13adc7 80%);
+ background: -moz-linear-gradient(90deg,#945dd6 0%, #6978d1 40%, #13adc7 80%);
+ border-radius: 86px;
+ text-align: center;
+}
+
+.begin a {
+ line-height: 80px;
+}
+
+.menu a:hover {
+ border-bottom: 2px solid transparent;
+ border-image: linear-gradient(90deg,#945dd6 0%, #6978d1 40%, #13adc7 80%);
+ border-image-slice: 1;
+}
