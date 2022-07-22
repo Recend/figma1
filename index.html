@@ -41,7 +41,27 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore
                 et
                 dolore magna aliqua.</p>
-                <input class="begin" type="button" value="Let's begin"> 
+                <button class="begin"><a href="#">Let's Begin</a></button>
+        </section>
+        <section class="vidus1">
+            <h2>Projects</h2>
+            <div class="container">
+                <div class="tekstas"><h3>Project 1</h3><p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button class="begin1"><a href="#">Look it up</a></button>
+                </div>
+                <div class="foto"><img class="foto1" src="/figma1/foto/image 1.svg" alt="foto"></div>
+            </div>
+            <div class="container1">
+                <div class="pirmas"><img class="foto2" src="/figma1/foto/project2.svg" alt="foto2">
+                <h4>Project 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn...</p>
+                <button class="begin1"><a href="#">Look it up</a></button>
+            </div>
+                <div class="pirmas"><img class="foto2" src="/figma1/foto/project3.svg" alt="foto3">
+                <h4>Project 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn...</p>
+                <button class="begin1"><a href="#">Look it up</a></button>
+            </div>
+            </div>
         </section>
     </main>
     <script defer>
@@ -61,6 +81,7 @@
         document.querySelectorAll("html").forEach(n => n.addEventListener("click", () => {
             hamburger.classList.remove("active")
             navMenu.classList.remove("active")
+
         }));
 
         function preventClose(event) {
