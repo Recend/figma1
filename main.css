@@ -355,9 +355,11 @@ h4 {
 .begin1:hover {
   background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%);
 }
+
 .begin2:hover {
   background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%);
 }
+
 .beginer:hover {
   background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%);
 }
@@ -385,6 +387,10 @@ h4 {
 
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: calc(30px + 30 * (100vw / 1200))
+  }
+
   .menu {
     display: none
   }
@@ -457,6 +463,7 @@ h4 {
 
   .vidus p {
     margin-left: 30px;
+    font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200))
   }
 
   .container {
@@ -474,7 +481,7 @@ h4 {
 
   .foto1 {
     height: 100%;
-    max-width: 385px;
+    max-width: 370px;
   }
 
   .foto2 {
@@ -507,6 +514,16 @@ h4 {
     margin-left: 15px;
   }
 
+  .container1 p {
+    font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+    line-height: 1.3;
+  }
+
+  .container p {
+    font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+    line-height: 1.3;
+  }
+
   .pirmas {
     margin: 10px auto;
   }
@@ -517,7 +534,6 @@ h4 {
 }
 
 @media (max-width: 420px) {
-
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -568,14 +584,23 @@ h4 {
   }
 }
 
-@media (max-width: 360px){
-  .foto1{
+
+@media (max-width: 360px) {
+  .foto1 {
     max-width: 90%;
   }
 }
-@media (max-width: 768px){
-  .container1{
+
+@media (max-width: 768px) {
+  .container1 {
     margin: 0 auto;
     padding: 0%;
+  }
+}
+
+@media (max-width:1300px) {
+  .container1{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
