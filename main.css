@@ -456,6 +456,8 @@ h4 {
   .container {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0 auto;
+    box-shadow: none;
 
   }
 
@@ -467,17 +469,16 @@ h4 {
   .foto1 {
     height: 100%;
     max-width: 385px;
-    margin-left: 20px;
   }
+
   .foto2 {
     height: 100%;
     max-width: 385px;
-    margin-left: 20px;
   }
+
   .foto3 {
     height: 100%;
     max-width: 385px;
-    margin-left: 20px;
   }
 
   .tekstas {
@@ -493,13 +494,82 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 60px;
+    margin: 0 auto;
+    box-shadow: none;
+    border-bottom: solid;
+    border-bottom-right-radius: none;
+    margin-left: 15px;
   }
 
   .pirmas {
-    border-top-left-radius: 53px 53px;
-    border-bottom-right-radius: 53px 53px;
-    box-shadow: 0px 0px 30px 0px rgba(118, 122, 130, 0.75);
+    margin: 10px auto;
   }
 
+  .beginer {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: solid;
+    border-bottom-right-radius: 0px 0px;
+  }
+
+  .container1 {
+    margin: 0 auto;
+    padding: 0;
+    padding: 0 auto;
+    box-shadow: none;
+  }
+
+  .pirmas {
+    width: 100%;
+    box-shadow: none;
+    margin: 0 auto;
+    border-bottom: solid;
+    border-bottom-right-radius: 0px 0px;
+  }
+
+  .pirmas1 {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .foto2 {
+    max-width: 100%;
+  }
+
+  .foto3 {
+    max-width: 100%;
+  }
+
+  .beginer {
+    margin-top: 20px;
+  }
+
+  .tekstas {
+    margin-left: 30px;
+  }
+
+  h2 {
+    margin: 0 75px;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 360px){
+  .foto1{
+    max-width: 90%;
+  }
+}
+@media (max-width: 768px){
+  .container1{
+    margin: 0 auto;
+    padding: 0%;
+  }
 }
