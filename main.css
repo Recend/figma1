@@ -178,6 +178,7 @@ h1 {
 .vidus1 {
   color: white;
   margin-top: 100px;
+  margin-bottom: -52px;
 }
 
 .container {
@@ -258,6 +259,7 @@ h2 {
   margin: 178px 46px;
   font-size: 55px;
   font-weight: 600px;
+  color: white;
 }
 
 
@@ -384,7 +386,155 @@ h4 {
   padding-left: 14px;
 }
 
+.vidus2{
+  color: white;
+}
 
+.main-bar{
+  margin-top: 140px;
+  margin-left: -21px;
+  font-size: 36px;
+}
+.bar-bar{
+  width: 100%;
+  height: 32px;
+  border-radius: 30px;
+  background-color: #162950;
+}
+.first{
+  width: 72%;
+  height: 32px;
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%); 
+  border-radius: 30px;
+}
+.second{
+  width: 48%;
+  height: 32px;
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%); 
+  border-radius: 30px;
+}
+.third{
+  width: 24%;
+  height: 32px;
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%); 
+  border-radius: 30px;
+}
+.end{
+ display: flex;
+ justify-content: space-between;
+ margin: -11px 23px;
+ margin-top: -75px;
+}
+
+h5{
+  margin-top: 100px;
+  font-size: 48px;
+}
+
+.listai{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding-right: 260px;
+}
+
+.listai li{
+  margin-top: 15px;
+  list-style-image: url(/figma1/foto/burbuliukas.svg);
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.tarpas{
+margin-left: 30px;
+}
+
+.burbuliukas{
+  margin-left: 50px
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me{
+  color: white;
+  max-width: 600px;
+  font-family: 'Poppins', sans-serif;
+
+  padding: 0 50px;
+  line-height: 42px;
+  font-size: 28px;
+}
+.avatar{
+  width: 328px;
+  height: 346px;
+  margin-top: -300px;
+}
+
+.avataras{
+  max-width: 600px;
+}
+
+.burbulas{
+  width: 349px;
+  height: 315px;
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 40%, #945dd6 80%);
+  border-radius: 0 50% 50% 50%;
+}
+
+
+footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.pabaiga{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  
+}
+.grupe{
+  display: flex;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+}
+
+.call{
+  font-size: 42px;
+}
+.email{
+  margin-left: 50px;
+  font-size: 42px;
+}
+.twiter{
+  margin-right: 10px;
+}
+
+.tech{
+  margin-left: 79px;
+  font-size: 63px;
+}
+
+sub{
+font-size: 24px;
+margin-right: 141px;
+}
+.lygiuot{
+  margin-right: 30px;
+}
+.lygiuot1{
+  margin-top: 5px;
+  margin-right: 25px;
+}
 
 @media (max-width: 960px) {
   h1 {
@@ -531,6 +681,59 @@ h4 {
   .beginer {
     margin-top: 20px;
   }
+.ly{
+  margin-left: 50px;
+}
+.tech{
+  margin: 100px auto
+}
+.about{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.call{
+  font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+    line-height: 1.3;
+}
+.email{
+  font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+    line-height: 1.3;
+}
+.socials{
+ margin-left: 10px;
+}
+.main-bar{
+  font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+}
+sub{
+
+  margin: 0 auto;
+}
+.vidus3 h2{
+  margin: 50px 50px;
+}
+.pabaiga{
+  margin: 15px
+}
+.vidus2 h2{
+font-size: calc(55px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200)); ;
+}
+.socials img{
+  width: 50px
+}
+.about-me{
+  font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+  line-height: 1.3;
+  border-bottom: solid;
+}
+.vidus2 h5{
+  text-align: center;
+  border-top: solid;
+}
+.vidus2{
+  border-bottom: solid;
+}
+
 }
 
 @media (max-width: 420px) {
@@ -582,6 +785,14 @@ h4 {
     margin: 0 75px;
     text-decoration: underline;
   }
+  .listai{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+sub{
+  font-size: calc(15px + (4 + 4 * 0.7) * ((100vw - 320px) / 1200));
+}
 }
 
 
@@ -589,7 +800,9 @@ h4 {
   .foto1 {
     max-width: 90%;
   }
-}
+
+  }
+
 
 @media (max-width: 768px) {
   .container1 {
