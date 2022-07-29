@@ -6,7 +6,7 @@
 - Atlikimo data: 2022 liepos 15d.
 - Papildymas antros dalies 2022 liepos 26d.
 - Pabaiga 2022 liepos 29d.
-
+- Yra šioks toks responsive :)
 
 gh-pages nuoroda: https://recend.github.io/figma1/
 
